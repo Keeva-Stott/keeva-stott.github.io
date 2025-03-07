@@ -2,15 +2,15 @@
 <h1 align="center">Hi 👋, I'm Keeva Stott</h1>
 <h3 align="center">A curious and ambitious Mechanical Engineering student</h3>
 
-- 🔭 I’m currently pursuing **Final Year Engineering**
+- 🔭 I’m currently pursuing **Year in Industry**
 
-- 🌱 I’m currently learning **Full Stack Development**
+- 🌱 I’m currently working to **learn to code**
 
-- 👨‍💻 My portfolio website [https://vsmidhun21.github.io/portfolio/](https://vsmidhun21.github.io/portfolio/)
+- 👨‍💻 My portfolio website [(https://keeva-stott.github.io/))
 
 - 💬 Ask me about **Python, HTML, CSS, SQL**
 
-- 📫 How to reach me **midhun890390@gmail.com**
+- 📫 How to reach me **stottkeeva@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
