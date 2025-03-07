@@ -6,13 +6,15 @@
 
 - 🌱 I’m currently working to **learn to code**
 
-- 👨‍💻 My portfolio website [(https://keeva-stott.github.io/))
 
-- 📫 How to reach me **stottkeeva@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Find me here:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/keeva-stott" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="midhun-v-s" height="30" width="40" /></a>
+
+  - 👨‍💻 My portfolio website [(https://keeva-stott.github.io/))
+
+- 📫 How to reach me **stottkeeva@gmail.com**
 
 <a href="stottkeeva@gmail.com" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/mail-alt.svg" alt="midhun-v-s" height="30" width="40" /></a>
 
