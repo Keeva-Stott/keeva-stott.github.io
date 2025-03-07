@@ -8,8 +8,6 @@
 
 - 👨‍💻 My portfolio website [(https://keeva-stott.github.io/))
 
-- 💬 Ask me about **Python, HTML, CSS, SQL**
-
 - 📫 How to reach me **stottkeeva@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
