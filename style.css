@@ -8,8 +8,8 @@
 }
 
 body {
-    color: black;
-    background-color: light blue;
+    color: #767c77;
+    background-color: #fbe2e5;
 }
 
 /*navbar*/
@@ -20,7 +20,7 @@ body {
     left: 0;
     width: 100%;
     padding: 20px 10%;
-    background: #252525;
+    background: #9cada4;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,7 +65,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: light blue;
+    background-color: #fbe2e5;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -157,7 +157,7 @@ body {
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
+    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
 }
 
 .img {
@@ -187,7 +187,7 @@ body {
 /*about*/
 
 .about {
-    background-color: light blue;
+    background-color: #fbe2e5;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     /*align-items: center;*/
@@ -215,7 +215,7 @@ body {
     max-width: 492px;
     max-height: 492px;
     border-radius: 90px;
-    /*box-shadow: 0 0 5pc light blue, 0 0 5px light blue, 0 0 10px light blue;*/
+    /*box-shadow: 0 0 5pc #fbe2e5, 0 0 5px #fbe2e5, 0 0 10px #fbe2e5;*/
     border: #0ef 5px solid;
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .abtbtn-box:hover {
-    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
+    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
 }
 
 
@@ -446,7 +446,7 @@ body {
 
 .radial-bars .radial-bar .progress-bar {
     stroke-width: 10;
-    stop-color: light blue;
+    stop-color: #fbe2e5;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -588,7 +588,7 @@ body {
 
 
 .layer p {
-    color: light blue;
+    color: #fbe2e5;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
@@ -693,7 +693,7 @@ body {
 }
 
 .read:hover {
-    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
+    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
 }
 
 .prj-list div:hover {
@@ -789,7 +789,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: light blue;
+    background: #fbe2e5;
     font-weight: 300;
     margin-top: 0px;
 }
@@ -809,7 +809,7 @@ body {
 }
 
 .top i{
-    color: black;
+    color: #767c77;
     background: #0ef;
     font-size: 20px;
     padding: 10px;
@@ -817,8 +817,8 @@ body {
 }
 
 .top i:hover {
-    box-shadow: 0 0 5px light blue,
-    0 0 25px light blue, 0 0 50px light blue,0 0 200px light blue;
+    box-shadow: 0 0 5px #fbe2e5,
+    0 0 25px #fbe2e5, 0 0 50px #fbe2e5,0 0 200px #fbe2e5;
 }
 
 
@@ -1007,7 +1007,7 @@ body {
         margin-left: 0;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
+        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
     }
     /*about*/
     .about{
@@ -1027,7 +1027,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
+        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
     }
 
     /*skills*/
@@ -1162,7 +1162,7 @@ body {
         font-weight: 200;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
+        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
     }
     .img{
         max-width: 300px;
@@ -1193,7 +1193,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
+        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
     }
 
     /*skills*/
