@@ -169,6 +169,7 @@ body {
     background-position: center center;
     background-size: cover;
     position: absolute;
+    top: 20px;
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
@@ -176,7 +177,6 @@ body {
 
 .responsive {
     width: 100%;
-    margin-top: 20px;
     height: auto;
     border-bottom-left-radius: 251px;
     border-bottom-right-radius: 251px;
