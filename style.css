@@ -185,6 +185,10 @@ body {
     border-bottom-right-radius: 251px;
 }
 
+.profilepicmargin {
+    margin-top: 100px;
+}
+
 /*about*/
 
 .about {
