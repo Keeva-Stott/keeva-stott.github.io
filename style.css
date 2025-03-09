@@ -165,7 +165,7 @@ body {
     left: 55%;
     bottom: 15%;
     margin-right: 5%;
-    top: 40px;
+    top: 30px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -178,8 +178,6 @@ body {
 .responsive {
     width: 100%;
     height: auto;
-    border-top-left-radius: 251px;
-    border-top-right-radius: 251px;
     border-bottom-left-radius: 251px;
     border-bottom-right-radius: 251px;
 }
