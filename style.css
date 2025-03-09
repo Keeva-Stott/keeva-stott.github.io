@@ -241,9 +241,9 @@ body {
 
 .about-text paragraph {
     color: #9cada4;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 2;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     margin-bottom: 4rem;
     text-align: justify;
     text-justify: inter-word;
