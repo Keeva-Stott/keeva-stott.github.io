@@ -163,12 +163,12 @@ body {
 .img {
     display: inline-block;
     left: 55%;
+    bottom: 20%;
     margin-right: 5%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: absolute;
-    top: 5px;
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
