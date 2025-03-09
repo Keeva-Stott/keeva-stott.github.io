@@ -200,7 +200,7 @@ body {
 
 .right-content {
     grid-column: 2; /* Make sure it is placed in the second column */
-    margin-left: -50px; /* Moves it further left */
+    margin-left: -100px; /* Moves it further left */
 }
 
 .about-img {
