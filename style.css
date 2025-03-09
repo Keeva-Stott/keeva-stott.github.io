@@ -163,7 +163,7 @@ body {
 .img {
     display: inline-block;
     left: 55%;
-    bottom: 25%;
+    bottom: 0%;
     margin-right: 5%;
     background-repeat: no-repeat;
     background-position: center center;
@@ -179,6 +179,8 @@ body {
     height: auto;
     border-bottom-left-radius: 251px;
     border-bottom-right-radius: 251px;
+    border-top-left-radius: 251px;
+    border-top-right-radius: 251px;
 }
 
 
