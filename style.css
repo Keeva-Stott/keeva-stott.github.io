@@ -9,7 +9,7 @@
 
 body {
     color: black;
-    background-color: cyan;
+    background-color: light blue;
 }
 
 /*navbar*/
@@ -65,7 +65,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: cyan;
+    background-color: light blue;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -157,7 +157,7 @@ body {
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
 }
 
 .img {
@@ -187,7 +187,7 @@ body {
 /*about*/
 
 .about {
-    background-color: cyan;
+    background-color: light blue;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     /*align-items: center;*/
@@ -215,7 +215,7 @@ body {
     max-width: 492px;
     max-height: 492px;
     border-radius: 90px;
-    /*box-shadow: 0 0 5pc cyan, 0 0 5px cyan, 0 0 10px cyan;*/
+    /*box-shadow: 0 0 5pc light blue, 0 0 5px light blue, 0 0 10px light blue;*/
     border: #0ef 5px solid;
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .abtbtn-box:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
 }
 
 
@@ -446,7 +446,7 @@ body {
 
 .radial-bars .radial-bar .progress-bar {
     stroke-width: 10;
-    stop-color: cyan;
+    stop-color: light blue;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -588,7 +588,7 @@ body {
 
 
 .layer p {
-    color: cyan;
+    color: light blue;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
@@ -693,7 +693,7 @@ body {
 }
 
 .read:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50pc cyan, 0 0 100px cyan, 0 0 200px cyan;
+    box-shadow: 0 0 5px light blue, 0 0 25px light blue, 0 0 50pc light blue, 0 0 100px light blue, 0 0 200px light blue;
 }
 
 .prj-list div:hover {
@@ -789,7 +789,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: cyan;
+    background: light blue;
     font-weight: 300;
     margin-top: 0px;
 }
@@ -817,8 +817,8 @@ body {
 }
 
 .top i:hover {
-    box-shadow: 0 0 5px cyan,
-    0 0 25px cyan, 0 0 50px cyan,0 0 200px cyan;
+    box-shadow: 0 0 5px light blue,
+    0 0 25px light blue, 0 0 50px light blue,0 0 200px light blue;
 }
 
 
@@ -1007,7 +1007,7 @@ body {
         margin-left: 0;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
     }
     /*about*/
     .about{
@@ -1027,7 +1027,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
     }
 
     /*skills*/
@@ -1162,7 +1162,7 @@ body {
         font-weight: 200;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
     }
     .img{
         max-width: 300px;
@@ -1193,7 +1193,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px cyan, 0 0 10px cyan, 0 0 15pc cyan, 0 0 20px cyan, 0 0 25px cyan;
+        box-shadow: 0 0 5px light blue, 0 0 10px light blue, 0 0 15pc light blue, 0 0 20px light blue, 0 0 25px light blue;
     }
 
     /*skills*/
