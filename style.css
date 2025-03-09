@@ -54,7 +54,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #0ef;
+    color: #9cada4;
     text-decoration: underline;
 }
 
@@ -219,7 +219,7 @@ body {
     max-height: 492px;
     border-radius: 90px;
     /*box-shadow: 0 0 5pc #fbe2e5, 0 0 5px #fbe2e5, 0 0 10px #fbe2e5;*/
-    border: #0ef 5px solid;
+    border: #9cada4 5px solid;
 }
 
 .about-text {
@@ -232,7 +232,7 @@ body {
 }
 
 .about-text h2 span {
-    color: #0ef;
+    color: #9cada4;
 }
 
 .about-text p {
@@ -248,7 +248,7 @@ body {
 .abtbtn-box {
     display: inline-block;
     padding: 12px 28px;
-    background: #0ef;
+    background: #9cada4;
     border-radius: 40px;
     font-size: 15px;
     text-align: center;
@@ -276,7 +276,7 @@ body {
 }
 
 .subtitle span {
-    color: #0ef;
+    color: #9cada4;
 }
 
 .sec {
@@ -347,7 +347,7 @@ body {
 
 .Technical-bars .bar .progress-line span {
     height: 100%;
-    background-color: #0ef;
+    background-color: #9cada4;
     position: absolute;
     border-radius: 10px;
     animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
@@ -459,7 +459,7 @@ body {
 
 .path {
     stroke-width: 10;
-    stroke: #0ef;
+    stroke: #9cada4;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -526,7 +526,7 @@ body {
 }
 
 .main-text h2 span {
-    color: #0ef;
+    color: #9cada4;
 }
 
 .serv-container {
@@ -560,7 +560,7 @@ body {
     max-height: 300px;
     height: 0;
     opacity: 0;
-    background: linear-gradient(rgba(255, 255, 255, 0.5), #0ef);
+    background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
     position: absolute;
     border-radius: 8px;
     left: 0;
@@ -599,7 +599,7 @@ body {
 }
 
 .layer i {
-    color: #0ef;
+    color: #9cada4;
     margin-top: 20px;
     font-size: 20px;
     background: #000;
@@ -634,7 +634,7 @@ body {
 }
 
 .sub-title span {
-    color: #0ef;
+    color: #9cada4;
 }
 
 .prj-list {
@@ -653,7 +653,7 @@ body {
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     /*box-shadow: 1px 1px 20px #012290f7, 1px 1px 40px #0053b8f7;*/
-    border: #0ef 5px solid;
+    border: #9cada4 5px solid;
 }
 
 .container {
@@ -683,7 +683,7 @@ body {
 .read {
     display: inline-block;
     padding: 12px 20px;
-    background: #0ef;
+    background: #9cada4;
     border-radius: 40px;
     font-size: 16px;
     color: #081b29;
@@ -729,7 +729,7 @@ body {
 }
 
 .contact-text h2 span {
-    color: #0ef;
+    color: #9cada4;
 }
 
 .contact-text h4 {
@@ -758,7 +758,7 @@ body {
 
 .contact-list i {
     display: inline-block;
-    color: #0ef;
+    color: #9cada4;
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
@@ -773,19 +773,19 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid #9cada4;
     border-radius: 50%;
     font-size: 20px;
-    color: #0ef;
+    color: #9cada4;
     text-decoration: none;
     margin: 0px 15px 0px 0;
     opacity: 1;
 }
 
 .contact-icons i:hover {
-    background: #0ef;
+    background: #9cada4;
     color: #000;
-    box-shadow: 0 0 20px #0ef;
+    box-shadow: 0 0 20px #9cada4;
 }
 
 .last-text p{
@@ -813,7 +813,7 @@ body {
 
 .top i{
     color: #767c77;
-    background: #0ef;
+    background: #9cada4;
     font-size: 20px;
     padding: 10px;
     border-radius: 0.5rem;
