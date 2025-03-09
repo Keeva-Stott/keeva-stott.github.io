@@ -169,7 +169,7 @@ body {
     background-position: center center;
     background-size: cover;
     position: absolute;
-    top: 20px;
+    top: 5px;
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
