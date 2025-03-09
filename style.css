@@ -162,7 +162,7 @@ body {
 
 .img {
     display: inline-block;
-    left: 50%;
+    left: 25%;
     top: 20px;
     margin-right: 5%;
     background-repeat: no-repeat;
@@ -214,9 +214,9 @@ body {
 .abt-res {
     width: 100%;
     height: auto;
-    max-width: 400px;
-    max-height: 492px;
-    border-radius: 90px;
+    max-width: 600px;
+    max-height: 900px;
+    border-radius: 25px;
     /*box-shadow: 0 0 5pc #fbe2e5, 0 0 5px #fbe2e5, 0 0 10px #fbe2e5;*/
     border: #9cada4 5px solid;
 }
