@@ -175,8 +175,8 @@ body {
 }
 
 .responsive {
-    width: 300;
-    height: 500;
+    width: 150;
+    height: 300;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     border-top-left-radius: 50%;
