@@ -1,4 +1,4 @@
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -163,7 +163,7 @@ body {
 .img {
     display: inline-block;
     left: 55%;
-    bottom: 50%;
+    bottom: 5%;
     margin-right: 5%;
     background-repeat: no-repeat;
     background-position: center center;
