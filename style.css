@@ -276,7 +276,7 @@ body {
 
     .about-img {
         position: center;
-        order: -1; /* Moves the image above the text */
+        order: 0; /* Moves the image above the text */
         width: 80%; /* Reduces size on smaller screens */
     }
 
