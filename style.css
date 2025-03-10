@@ -256,7 +256,6 @@ body {
 @media (max-width: 768px) {
     .about {
         grid-template-columns: 1fr; /* Switch to one column */
-        text-align: center; /* Center text */
         padding: 50px 5%;
     }
 
