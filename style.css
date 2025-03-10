@@ -61,8 +61,29 @@ body {
 
 /*home*/
 
-.home {
+.img {
+    display: inline-block;
+    left: 15%;
+    top:15%;
+    margin-right: 5%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
     position: relative;
+    opacity: 0;
+    animation: slideUP 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.responsive {
+    width: 350px;
+    height: 450px;
+    border-radius: 50%;
+}
+
+.home {
+    position: absolute;
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
@@ -159,30 +180,6 @@ body {
 
 .btn-box:hover {
     box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
-}
-
-.img {
-    display: inline-block;
-    left: 45%;
-    bottom:15%;
-    margin-right: 5%;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: absolute;
-    opacity: 0;
-    animation: slideUP 1s ease forwards;
-    animation-delay: 1s;
-}
-
-.responsive {
-    width: 350px;
-    height: 450px;
-    border-bottom-left-radius: 251%;
-    border-bottom-right-radius: 251%;
-    border-top-left-radius: 251%;
-    border-top-right-radius: 251%;
 }
 
 @media (max-width: 768px) {
