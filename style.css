@@ -41,7 +41,7 @@ body {
 }
 
 .navbar a {
-    display: flex;
+    display: inline-flex;
     font-size: 25px;
     color: #fff;
     text-decoration: none;
