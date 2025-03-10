@@ -46,7 +46,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 10px;
     transition: .3s;
     opacity: 0;
     animation: slideUP .5s ease forwards;
