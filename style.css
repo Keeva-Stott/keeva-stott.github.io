@@ -257,6 +257,11 @@ body {
     text-justify: inter-word;
 }
 
+.right-content {
+    grid-column: 2; /* Make sure it is placed in the second column */
+    margin-left: -100px; /* Moves it further left */
+}
+
 @media (max-width: 768px) {
     .about {
         grid-template-columns: 1fr; /* Switch to one column */
@@ -275,6 +280,10 @@ body {
 
     .about-text paragraph {
         font-size: 18px;
+    }
+     .right-content {
+        text-align: center; /* Center the text on small screens */
+        margin: 0 auto;
     }
 }
 
