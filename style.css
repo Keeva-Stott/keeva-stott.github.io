@@ -62,7 +62,7 @@ body {
 /*home*/
 
 .img {
-    display: inline-block;
+    display: flex;
     left: 15%;
     top:15%;
     margin-right: 5%;
@@ -90,7 +90,7 @@ body {
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
-    display: flex;
+    display: inline-block;
     align-items: center;
     padding: 70px 10% 0;
 }
@@ -183,15 +183,15 @@ body {
 }
 
 @media (max-width: 768px) {
-    .responsive {
-        width: 80%; 
-        height: 80%; /* Reduces size on smaller screens */
-    }
 
     .img {
         position: center;
     }
-
+ 
+   .responsive {
+        width: 80%; 
+        height: 80%; /* Reduces size on smaller screens */
+    }
 }
 
 /*about*/
