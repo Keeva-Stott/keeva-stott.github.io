@@ -200,11 +200,6 @@ body {
     padding: 70px 5% 0;
 }
 
-.right-content {
-    grid-column: 2; /* Make sure it is placed in the second column */
-    margin-left: -200px; /* Moves it further left */
-}
-
 .about-img {
     display: inline-block;
     background-repeat: no-repeat;
