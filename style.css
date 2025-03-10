@@ -73,9 +73,11 @@ body {
     align-items: center;
     padding: 70px 10% 0;
     flex-direction: row-reverse;
+    gap: 5%;
 }
 
 .home-content {
+    flex: 1;
     max-width: 600px;
 }
 
@@ -164,14 +166,12 @@ body {
 
 .img {
     display: flex;
-    left: 0;
+    flex: 1;
     bottom:15%;
-    margin-right: 5%;
     padding: 10px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: relative;
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
