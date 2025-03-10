@@ -210,7 +210,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding-right: 10%;
+    padding-right: 5%;
     width: 100%;
     height: auto;
     margin-top: 2.5%;
@@ -244,7 +244,7 @@ body {
 .about-text paragraph {
     color: #9cada4;
     font-size: 20px;
-    line-height: 2;
+    line-height: 1;
     letter-spacing: 2px;
     margin-bottom: 4rem;
     text-align: justify;
