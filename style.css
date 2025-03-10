@@ -185,7 +185,80 @@ body {
     border-top-right-radius: 251%;
 }
 
+@media (max-width: 768px) {
+    .home {
+        text-align: center; /* Center text */
+        padding: 50px 5%;
+    }
 
+    .img {
+        order: -1; /* Moves the image above the text */
+        width: 80%; /* Reduces size on smaller screens */
+    }
+
+    .responsive {
+          order: -1; /* Moves the image above the text */
+        width: 80%; /* Reduces size on smaller screens */
+    }
+
+    .about-text h2 {
+        font-size: 40px; /* Reduce text size */
+    }
+
+    .about-text paragraph {
+        font-size: 18px;
+    }
+ .home-content {
+    max-width: 600px;
+}
+
+.home-content h1 {
+    font-size: 80%;
+    font-weight: 80%;
+    
+}
+
+.home-content h3 {
+    font-size: 80%;
+    font-weight: 80%;
+}
+
+.home-content h4 {
+    font-size: 80%;
+    font-weight: 80%;
+
+}
+
+.home-content h4 span {
+    font-size: 80%;
+    font-weight: 80%;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #9cada4;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #9cada4;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.home-sci a:hover {
+    background: #9cada4;
+    color: #000;
+    box-shadow: 0 0 20px #9cada4;
+}
+
+}
 /*about*/
 
 .about {
@@ -246,6 +319,26 @@ body {
     text-justify: inter-word;
 }
 
+@media (max-width: 768px) {
+    .about {
+        grid-template-columns: 1fr; /* Switch to one column */
+        text-align: center; /* Center text */
+        padding: 50px 5%;
+    }
+
+    .about-img {
+        order: -1; /* Moves the image above the text */
+        width: 80%; /* Reduces size on smaller screens */
+    }
+
+    .about-text h2 {
+        font-size: 40px; /* Reduce text size */
+    }
+
+    .about-text paragraph {
+        font-size: 18px;
+    }
+}
 .abtbtn-box {
     display: inline-block;
     padding: 12px 28px;
