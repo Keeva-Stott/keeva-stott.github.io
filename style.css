@@ -265,11 +265,11 @@ body {
 @media (max-width: 768px) {
     .about {
         grid-template-columns: 1fr; /* Switch to one column */
-        position: center;
         padding: 50px 5%;
     }
 
     .about-img {
+        position: center;
         order: -1; /* Moves the image above the text */
         width: 80%; /* Reduces size on smaller screens */
     }
@@ -282,7 +282,6 @@ body {
         font-size: 16px;
     }
      .right-content {
-        text-align: center; /* Center the text on small screens */
         margin: 0 auto;
     }
 }
