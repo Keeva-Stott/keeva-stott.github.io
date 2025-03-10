@@ -162,9 +162,10 @@ body {
 
 .img {
     display: inline-block;
-    left: 25%;
-    top: 60px;
+    left: 45%;
+    bottom:15%;
     margin-right: 5%;
+    padding: 0;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
