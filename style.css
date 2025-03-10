@@ -9,7 +9,7 @@
 
 body {
     color: #767c77;
-    background-color: #fbe2e5;
+    background-color: #ebd5c0;
 }
 
 /*navbar*/
@@ -65,7 +65,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    background-color: #fbe2e5;
+    background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -157,7 +157,7 @@ body {
 }
 
 .btn-box:hover {
-    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
+    box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
 }
 
 .img {
@@ -188,7 +188,7 @@ body {
 /*about*/
 
 .about {
-    background-color: #fbe2e5;
+    background-color: #ebd5c0;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     /*align-items: center;*/
@@ -223,7 +223,7 @@ body {
     max-width: 400px;
     max-height: 600px;
     border-radius: 25px;
-    /*box-shadow: 0 0 5pc #fbe2e5, 0 0 5px #fbe2e5, 0 0 10px #fbe2e5;*/
+    /*box-shadow: 0 0 5pc #ebd5c0, 0 0 5px #ebd5c0, 0 0 10px #ebd5c0;*/
     border: #9cada4 5px solid;
 }
 
@@ -264,7 +264,7 @@ body {
 }
 
 .abtbtn-box:hover {
-    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
+    box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
 }
 
 
@@ -454,7 +454,7 @@ body {
 
 .radial-bars .radial-bar .progress-bar {
     stroke-width: 10;
-    stop-color: #fbe2e5;
+    stop-color: #ebd5c0;
     fill: transparent;
     stroke-dasharray: 502;
     stroke-dashoffset: 502;
@@ -596,7 +596,7 @@ body {
 
 
 .layer p {
-    color: #fbe2e5;
+    color: #ebd5c0;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.8;
@@ -701,7 +701,7 @@ body {
 }
 
 .read:hover {
-    box-shadow: 0 0 5px #fbe2e5, 0 0 25px #fbe2e5, 0 0 50pc #fbe2e5, 0 0 100px #fbe2e5, 0 0 200px #fbe2e5;
+    box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
 }
 
 .prj-list div:hover {
@@ -797,7 +797,7 @@ body {
     width: 100%;
     text-align: center;
     padding: 25px;
-    background: #fbe2e5;
+    background: #ebd5c0;
     font-weight: 300;
     margin-top: 0px;
 }
@@ -825,8 +825,8 @@ body {
 }
 
 .top i:hover {
-    box-shadow: 0 0 5px #fbe2e5,
-    0 0 25px #fbe2e5, 0 0 50px #fbe2e5,0 0 200px #fbe2e5;
+    box-shadow: 0 0 5px #ebd5c0,
+    0 0 25px #ebd5c0, 0 0 50px #ebd5c0,0 0 200px #ebd5c0;
 }
 
 
@@ -1015,7 +1015,7 @@ body {
         margin-left: 0;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
+        box-shadow: 0 0 5px #ebd5c0, 0 0 10px #ebd5c0, 0 0 15pc #ebd5c0, 0 0 20px #ebd5c0, 0 0 25px #ebd5c0;
     }
     /*about*/
     .about{
@@ -1035,7 +1035,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
+        box-shadow: 0 0 5px #ebd5c0, 0 0 10px #ebd5c0, 0 0 15pc #ebd5c0, 0 0 20px #ebd5c0, 0 0 25px #ebd5c0;
     }
 
     /*skills*/
@@ -1170,7 +1170,7 @@ body {
         font-weight: 200;
     }
     .btn-box:hover {
-        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
+        box-shadow: 0 0 5px #ebd5c0, 0 0 10px #ebd5c0, 0 0 15pc #ebd5c0, 0 0 20px #ebd5c0, 0 0 25px #ebd5c0;
     }
     .img{
         max-width: 300px;
@@ -1201,7 +1201,7 @@ body {
         text-align: left;
     }
     .abtbtn-box:hover {
-        box-shadow: 0 0 5px #fbe2e5, 0 0 10px #fbe2e5, 0 0 15pc #fbe2e5, 0 0 20px #fbe2e5, 0 0 25px #fbe2e5;
+        box-shadow: 0 0 5px #ebd5c0, 0 0 10px #ebd5c0, 0 0 15pc #ebd5c0, 0 0 20px #ebd5c0, 0 0 25px #ebd5c0;
     }
 
     /*skills*/
