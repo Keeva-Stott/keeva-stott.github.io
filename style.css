@@ -434,6 +434,37 @@ body {
     color: white;
 }
 
+
+/* Skills Section */
+#Skills {
+    background-color: #2c3e50;
+    padding: 50px 10%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#Skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill {
+    background: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .timeline::before {
@@ -449,6 +480,10 @@ body {
     .timeline-item h2 {
         left: 5px !important;
         right: auto;
+    }
+
+    .content {
+        width: 100%; /* FIX: Ensure content spans full width */
     }
 
     .content::before {
