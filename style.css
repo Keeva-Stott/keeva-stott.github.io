@@ -371,7 +371,7 @@ body {
 /* Right Items */
 .timeline-item.right {
     text-align: left;
-    left: 50%;
+    left: 0;
 }
 
 .timeline-item.right h2 {
