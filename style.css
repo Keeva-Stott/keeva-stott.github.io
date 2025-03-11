@@ -63,8 +63,8 @@ body {
 
 .img {
     display: flex;
-    left: 15%;
-    top:15%;
+    left: 5%;
+    top:5%;
     margin-right: 5%;
     padding: 0;
     background-repeat: no-repeat;
@@ -90,7 +90,7 @@ body {
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
-    display: inline-block;
+    display: inline-flex;
     align-items: center;
     padding: 70px 10% 0;
 }
@@ -139,7 +139,7 @@ body {
 }
 
 .home-sci a {
-    display: inline-flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     width: 40px;
