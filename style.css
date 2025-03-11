@@ -187,6 +187,12 @@ body {
 }
 
 @media (max-width: 768px) {
+     .home {
+        flex-direction: column; /* ✅ Stack image and text vertically */
+        align-items: center; /* ✅ Center content */
+        text-align: center; /* ✅ Align text centrally */
+    }
+ 
     .responsive {
         width: 80%; 
         height: 80%; /* Reduces size on smaller screens */
