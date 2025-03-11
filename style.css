@@ -90,7 +90,7 @@ body {
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
-    display: inline-flex;
+    display: inline-block;
     align-items: center;
     padding: 70px 10% 0;
 }
