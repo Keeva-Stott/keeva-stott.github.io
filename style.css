@@ -78,8 +78,7 @@ body {
 
 .home-content {
     max-width: 600px;
-    margin-left: 10px;  /* ✅ Moves text 10px away from the image */
-
+    margin-left: 10px;  
 }
 
 .home-content h1 {
@@ -171,7 +170,7 @@ body {
     background: #9cada4;
     border-radius: 40px;
     font-size: 15px;
-    text-align: center;
+    text-align: center center;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
