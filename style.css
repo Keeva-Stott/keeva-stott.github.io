@@ -70,6 +70,7 @@ body {
     background-size: cover;
     background-position: center;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 70px 10% 0;
@@ -143,7 +144,8 @@ body {
 }
 
 .img {
-    display: fle;
+    display: flex;
+    width: 40%;
     margin-right: 5%;
     padding: 0;
     background-repeat: no-repeat;
@@ -152,6 +154,7 @@ body {
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
+    justify-content: center;
 }
 
 .responsive {
