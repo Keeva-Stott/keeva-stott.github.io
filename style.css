@@ -190,7 +190,7 @@ body {
      .home {
         flex-direction: column; /* ✅ Stack image and text vertically */
         align-items: center; /* ✅ Center content */
-        text-align: center; /* ✅ Align text centrally */
+        text-align: left; /* ✅ Align text centrally */
     }
  
     .responsive {
