@@ -1,3 +1,4 @@
+
  
 * {
     margin: 0;
@@ -61,24 +62,21 @@ body {
 
 /*home*/
 
-
 .home {
     position: relative;
     width: 100%;
+    justify-content: space-between;
     min-height: 100vh;
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     padding: 70px 10% 0;
 }
 
 .home-content {
     max-width: 600px;
-    margin-left: 10px;  
 }
 
 .home-content h1 {
@@ -121,7 +119,7 @@ body {
 }
 
 .home-sci a {
-    display: inline-block;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -144,33 +142,13 @@ body {
     box-shadow: 0 0 20px #9cada4;
 }
 
-.img {
-    display: flex;
-    width: 40%;
-    margin-right: 5%;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 0;
-    animation: slideUP 1s ease forwards;
-    animation-delay: 1s;
-    justify-content: center;
-}
-
-.responsive {
-    width: 350px;
-    height: 450px;
-    border-radius: 50%;
-}
-
 .btn-box {
     display: inline-block;
     padding: 12px 28px;
     background: #9cada4;
     border-radius: 40px;
     font-size: 15px;
-    text-align: center center;
+    text-align: center;
     color: #081b29;
     letter-spacing: 1px;
     text-decoration: none;
@@ -184,16 +162,40 @@ body {
     box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
 }
 
+.img {
+    display: inline-block;
+    left: 45%;
+    bottom:15%;
+    margin-right: 5%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    opacity: 0;
+    animation: slideUP 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.responsive {
+    width: 350px;
+    height: 450px;
+    border-bottom-left-radius: 251%;
+    border-bottom-right-radius: 251%;
+    border-top-left-radius: 251%;
+    border-top-right-radius: 251%;
+}
+
 @media (max-width: 768px) {
+    .responsive {
+        width: 80%; 
+        height: 80%; /* Reduces size on smaller screens */
+    }
 
     .img {
         position: center;
     }
- 
-   .responsive {
-        width: 80%; 
-        height: 80%; /* Reduces size on smaller screens */
-    }
+
 }
 
 /*about*/
