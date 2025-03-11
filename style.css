@@ -329,7 +329,7 @@ body {
     left: 50%;
     width: 4px;
     height: 100%;
-    background: gray;
+    background: #ebd5c0;
     top: 0;
     transform: translateX(-50%);
 }
