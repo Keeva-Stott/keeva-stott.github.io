@@ -78,6 +78,8 @@ body {
 
 .home-content {
     max-width: 600px;
+    margin-left: 10px;  /* ✅ Moves text 10px away from the image */
+
 }
 
 .home-content h1 {
