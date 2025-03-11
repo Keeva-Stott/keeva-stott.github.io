@@ -346,14 +346,16 @@ body {
 .timeline-item h2 {
     position: absolute;
     top: 20px;
-    width: 50px;
-    height: 50px;
-    background: #444;
+    width: 60px;
+    height: 60px;
+    background: #3b4b5a;
     color: white;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     border-radius: 50%;
     font-size: 14px;
+     font-weight: bold;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 /* Left Items */
@@ -363,7 +365,7 @@ body {
 }
 
 .timeline-item.left h2 {
-    right: -30px;
+    right: -35px;
 }
 
 /* Right Items */
@@ -373,7 +375,7 @@ body {
 }
 
 .timeline-item.right h2 {
-    left: -30px;
+    left: -35px;
 }
 
 /* Event Content */
@@ -384,7 +386,7 @@ body {
     border-radius: 8px;
     position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-
+    width: 80%;
 }
 
 /* Arrow Effect */
