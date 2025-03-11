@@ -61,37 +61,17 @@ body {
 
 /*home*/
 
-.img {
-    display: flex;
-    left: 5%;
-    top:5%;
-    margin-right: 5%;
-    padding: 0;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    position: relative;
-    opacity: 0;
-    animation: slideUP 1s ease forwards;
-    animation-delay: 1s;
-}
-
-.responsive {
-    width: 350px;
-    height: 450px;
-    border-radius: 50%;
-}
 
 .home {
     position: relative;
     width: 100%;
-    justify-content: space-between;
     min-height: 100vh;
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
-    display: inline-block;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 70px 10% 0;
 }
 
@@ -160,6 +140,24 @@ body {
     background: #9cada4;
     color: #000;
     box-shadow: 0 0 20px #9cada4;
+}
+
+.img {
+    display: fle;
+    margin-right: 5%;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0;
+    animation: slideUP 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.responsive {
+    width: 350px;
+    height: 450px;
+    border-radius: 50%;
 }
 
 .btn-box {
