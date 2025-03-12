@@ -346,6 +346,8 @@ body {
 .timeline-item h2 {
     position: absolute;
     top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
     width: 60px;
     height: 60px;
     background: #3b4b5a;
@@ -400,17 +402,24 @@ body {
 }
 
 .left .content::before {
-    right: -15px;
+    right: -10px;
     border-width: 10px 0 10px 15px;
     border-color: transparent transparent transparent white;
 }
 
 .right .content::before {
-    left: -15px;
+    left: -10px;
     border-width: 10px 15px 10px 0;
     border-color: transparent white transparent transparent;
 }
 
+.timeline-item.left .content {
+    margin-right: 10px; /* Fine-tune spacing */
+}
+
+.timeline-item.right .content {
+    margin-left: 10px; /* Fine-tune spacing */
+}
 /* Title Colors */
 .title {
     font-size: 18px;
