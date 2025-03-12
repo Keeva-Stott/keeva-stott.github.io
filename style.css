@@ -329,7 +329,7 @@ body {
     left: 50%;
     width: 4px;
     height: 100%;
-    background: #ebd5c0;
+    background: ##767c77;
     top: 0;
     transform: translateX(-50%);
 }
@@ -350,7 +350,7 @@ body {
     transform: translateX(-50%);
     width: 60px;
     height: 60px;
-    background: #3b4b5a;
+    background: #767c77;
     color: white;
     text-align: center;
     line-height: 60px;
