@@ -326,8 +326,8 @@ body {
 }
 
 /* Timeline Vertical Line */
-.timeline::before {
-    content: "";
+.timeline::after {
+    content: "My Work Experience";
     position: absolute;
     left: 50%;
     width: 4px;
