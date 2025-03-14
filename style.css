@@ -331,8 +331,9 @@ body {
     background-color: yellow;
     position: absolute;
     left: 50%;
+ top: 800px;
     width: 4px;
-    height: 100%; 
+    height: Auto; 
     background: #767c77;
     top: 0;
     transform: translateX(-50%);
