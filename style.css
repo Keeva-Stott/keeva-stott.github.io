@@ -328,6 +328,7 @@ body {
 /* Timeline Vertical Line */
 .timeline::after {
     content: "My Work Experience";
+    background-color: yellow;
     position: absolute;
     left: 50%;
     width: 4px;
@@ -348,14 +349,14 @@ body {
     align-items: center;
 }
 
-.timeline-item.left {
+.left {
     text-align: right;
     left: 0;
  padding-right: 120px;
     margin-bottom: 30px;
 }
 
-.timeline-item.right {
+.right {
     text-align: left;
     left: 50%;
     padding-left: 120px;
@@ -383,7 +384,7 @@ body {
     background: white;
     color: black;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     width: 90%;
     max-width: 400px;
     position: relative;
@@ -397,6 +398,10 @@ body {
     height: 100%;  /* Full height of content box */
     background: lightgray;
     border-radius: 8px 0 0 8px;
+    border-bottom-left-radius: 251%;
+    border-bottom-right-radius: 251%;
+    border-top-left-radius: 251%;
+    border-top-right-radius: 251%;
 }
 
 /* Text Content */
