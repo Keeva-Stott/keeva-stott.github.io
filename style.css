@@ -240,7 +240,7 @@ body {
     padding-left: 15%;
     width: 100%;
     height: auto;
-    margin-top: 2.5%;
+    margin-top: 15%;
     /*margin-top: 7.5%;*/
     opacity: 1;
 }
@@ -258,7 +258,7 @@ body {
 .about-text {
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 .about-text h2 {
