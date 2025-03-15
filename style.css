@@ -312,8 +312,11 @@ body {
 
 
 /* Work Experience */
-#Work Experience{
+.work experience{
     background-color: #9cada4;
+}
+
+.timeline {
     position: relative;
     width: 100%;
     justify-content: space-between;
@@ -325,9 +328,13 @@ body {
     padding: 35px 10% 0;
 }
 
+.timeline-title h2{
+         font-size: 30px;
+        letter-spacing: 5px;
+    }
 
 /* Timeline Vertical Line */
-.timeline {
+.timeline-line {
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -338,7 +345,6 @@ body {
     border-left: 6px solid green;
     height: 500px;
 }
-
 
 /* Timeline Items */
 .timeline-item {
@@ -1014,7 +1020,7 @@ body {
         font-size: 30px;
         letter-spacing: 5px;
     }
-    
+
     .about-text p {
         font-size: 15px;
         line-height: normal;
