@@ -422,6 +422,8 @@ body {
 .content {
     background: white;
     color: black;
+    display: grid;
+    grid-template-columns: repeat(2, .5fr);
     padding: 20px 30px;
     border-radius: 5px;
     position: relative;
@@ -430,27 +432,29 @@ body {
 
 /* Space for Image */
 .image-container-left {
+     grid-column: 1; /* Make sure it is placed in the second column */
      display: inline-block;
     width: 200px;  /* Adjust width */
     height: 200px;  /* Full height of content box */
-    border-radius: 8px 0 0 8px;
     border-bottom-left-radius: 251%;
     border-bottom-right-radius: 251%;
     border-top-left-radius: 251%;
     border-top-right-radius: 251%;
     right: 2px;
+     opacity: 1;
 }
 
 .image-container-right {
-    display: inline-block;
-    width: 100px;  /* Adjust width */
-    height: 100px;  /* Full height of content box */
-    border-radius: 8px 0 0 8px;
+     grid-column: 2; /* Make sure it is placed in the second column */
+     display: inline-block;
+    width: 200px;  /* Adjust width */
+    height: 200px;  /* Full height of content box */
     border-bottom-left-radius: 251%;
     border-bottom-right-radius: 251%;
     border-top-left-radius: 251%;
     border-top-right-radius: 251%;
     left: 2px;
+     opacity: 1;
 }
 
 /* Text Content */
