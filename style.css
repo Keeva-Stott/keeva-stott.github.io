@@ -227,7 +227,8 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    padding: 30px 5% 0;
+    padding: 25px 5% 30px 0;
+    margin-top: 5px;
 }
 
 .about-img {
@@ -251,11 +252,12 @@ body {
     max-height: 600px;
     border-radius: 25px;
     /*box-shadow: 0 0 5pc #ebd5c0, 0 0 5px #ebd5c0, 0 0 10px #ebd5c0;*/
-    border: #9cada4 5px solid;
+    border: #767c77 5px solid;
 }
 
 .about-text {
     margin-right: 10%;
+    margin-left: 10%;
     margin-top: 5%;
 }
 
@@ -332,7 +334,7 @@ body {
 .main-text {
     padding-top: 25px;
     margin-top: 5px;
-    padding-bottom: 70px;
+    padding-bottom: 50px;
 }
 
 .main-text h2 {
@@ -363,7 +365,8 @@ body {
 }
 
 .row img {
-    width: 200%;
+    width: 200px;
+    height: auto;
     max-width: 300px;
     max-height: 300px;
     border-radius: 15px;
@@ -373,14 +376,14 @@ body {
 }
 
 .layer {
-    width: 100%;
+    width: 220px;
     max-width: 300px;
     max-height: 300px;
-    height: 0;
+    height: auto;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
     position: absolute;
-    border-radius: 8px;
+    border-radius: 10px;
     left: 0;
     bottom: 0;
     overflow: hidden;
