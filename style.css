@@ -326,17 +326,16 @@ body {
 }
 
 /* Timeline Vertical Line */
-.timeline::after {
-    content: "My Work Experience";
-    background-color: yellow;
+.timeline {
     position: absolute;
     left: 50%;
- top: 800px;
+    margin-left: -3px;
+    top: 800px;
     width: 4px;
-    height: Auto; 
+    height: 500px; 
     background: #767c77;
-    top: 0;
-    transform: translateX(-50%);
+    border-left: 6px solid green;
+    height: 500px;
 }
 
 
@@ -346,7 +345,7 @@ body {
     width: 50%;
     padding: 20px;
     box-sizing: border-box;
-     display: flex;
+    display: flex;
     align-items: center;
 }
 
