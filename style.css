@@ -333,6 +333,7 @@ body {
   margin-left: -3px;
 }
 .timeline-title h2{
+     left: 50%;
          font-size: 60px;
         letter-spacing: 5px;
     }
