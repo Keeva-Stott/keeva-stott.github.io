@@ -424,7 +424,7 @@ body {
     color: black;
     display: grid;
     grid-template-columns: repeat(2, .5fr);
-    padding: 20px 30px;
+    padding: 0px 30px;
     border-radius: 5px;
     position: relative;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -435,7 +435,7 @@ body {
      grid-column: 1; /* Make sure it is placed in the second column */
      display: inline-block;
     width: 200px;  /* Adjust width */
-    height: 200px;  /* Full height of content box */
+    height: 100px;  /* Full height of content box */
     border-bottom-left-radius: 251%;
     border-bottom-right-radius: 251%;
     border-top-left-radius: 251%;
@@ -445,10 +445,10 @@ body {
 }
 
 .image-container-right {
-     grid-column: 2; /* Make sure it is placed in the second column */
+     grid-column: 1; /* Make sure it is placed in the second column */
      display: inline-block;
     width: 200px;  /* Adjust width */
-    height: 200px;  /* Full height of content box */
+    height: 100px;  /* Full height of content box */
     border-bottom-left-radius: 251%;
     border-bottom-right-radius: 251%;
     border-top-left-radius: 251%;
