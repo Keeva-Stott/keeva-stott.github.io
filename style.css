@@ -366,7 +366,7 @@ body {
 }
 
 .row img {
-    width: 400px;
+    width: 350px;
     height: auto;
     border-radius: 15px;
     display: block;
@@ -375,7 +375,7 @@ body {
 }
 
 .layer {
-    width: 440px;
+    width: 390px;
     height: auto;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
