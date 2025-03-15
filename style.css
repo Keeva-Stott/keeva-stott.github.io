@@ -66,7 +66,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    min-height: 100vh;
+    min-height: 80vh;
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@ body {
 }
 
 .home-content h5 span {
-    color: #fabea7;
+    color: #767c77;
     font-size: 26px;
     font-weight: 600;
 }
@@ -223,7 +223,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    padding: 35px 5% 0;
+    padding: 20px 5% 0;
 }
 
 .about-img {
@@ -232,6 +232,7 @@ body {
     background-position: center center;
     background-size: cover;
     padding-right: 5%;
+    padding-left: 5%;
     width: 100%;
     height: auto;
     margin-top: 2.5%;
@@ -251,6 +252,7 @@ body {
 
 .about-text {
     margin-right: 10%;
+ top: 4px;
 }
 
 .about-text h2 {
