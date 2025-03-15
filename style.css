@@ -321,7 +321,7 @@ body {
 
 /*projects*/
 #Projects{
-    background-color: #9cada4;
+    background-color: #fbe2e5;
 }
 .main-text {
     padding-top: 25px;
@@ -338,7 +338,7 @@ body {
 }
 
 .main-text h2 span {
-    color: #9cada4;
+    color: #767c77;
 }
 
 .serv-container {
@@ -357,9 +357,9 @@ body {
 }
 
 .row img {
-    width: 100%;
-    max-width: 600px;
-    max-height: 600px;
+    width: 200%;
+    max-width: 300px;
+    max-height: 300px;
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
@@ -368,8 +368,8 @@ body {
 
 .layer {
     width: 100%;
-    max-width: 600px;
-    max-height: 600px;
+    max-width: 300px;
+    max-height: 300px;
     height: 0;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
