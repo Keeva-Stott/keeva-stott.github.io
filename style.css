@@ -326,7 +326,7 @@ body {
 }
 
 /* Timeline Vertical Line */
-.timeline {
+.timeline-line {
     position: absolute;
     left: 50%;
     margin-left: -3px;
@@ -393,14 +393,28 @@ body {
 }
 
 /* Space for Image */
-.image-container {
-    width: 200px;  /* Adjust width */
-    height: 200px;  /* Full height of content box */
+.image-container-left {
+     display: inline-block;
+    width: 100px;  /* Adjust width */
+    height: 100px;  /* Full height of content box */
     border-radius: 8px 0 0 8px;
     border-bottom-left-radius: 251%;
     border-bottom-right-radius: 251%;
     border-top-left-radius: 251%;
     border-top-right-radius: 251%;
+    right: 2px;
+}
+
+.image-container-right {
+    display: inline-block;
+    width: 100px;  /* Adjust width */
+    height: 100px;  /* Full height of content box */
+    border-radius: 8px 0 0 8px;
+    border-bottom-left-radius: 251%;
+    border-bottom-right-radius: 251%;
+    border-top-left-radius: 251%;
+    border-top-right-radius: 251%;
+    left: 2px;
 }
 
 /* Text Content */
