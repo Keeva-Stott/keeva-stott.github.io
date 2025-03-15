@@ -314,23 +314,24 @@ body {
 /* Work Experience */
 #Work Experience{
     background-color: #9cada4;
- padding: 50px 0;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 35px 10% 0;
 }
 
-* Timeline Container */
-.timeline {
-    position: relative;
-    max-width: 800px;
-    margin: 0 auto;
- padding: 50px 0;
-}
 
 /* Timeline Vertical Line */
-.timeline-line {
+.timeline {
     position: absolute;
     left: 50%;
     margin-left: -3px;
-    top: 1200px;
+    top: 200px;
     width: 4px;
     height: 500px; 
     background: #767c77;
