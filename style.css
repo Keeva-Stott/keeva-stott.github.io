@@ -280,6 +280,16 @@ body {
     text-align: justify;
     text-justify: inter-word;
 }
+.about-text paragraph span {
+    color: #767c77;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    margin-bottom: 4rem;
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: 450;
+}
 
 .right-content {
     grid-column: 2; /* Make sure it is placed in the second column */
