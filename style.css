@@ -365,9 +365,10 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ensure responsiveness */
     grid-auto-rows: minmax(300px, auto); /* Allow dynamic row heights */
-    gap: 20px; /* Add spacing between grid items */
+    row-gap: 30px; /* Add spacing between grid items */
     justify-content: center;
-    padding: 20px;
+    column-gap: calc(30px * 2 / 3);
+    padding: 45px 30px;
 }
 
 .row {
