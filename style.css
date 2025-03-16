@@ -76,7 +76,7 @@ body {
 .home-content {
     position: absolute;  
     max-width: 600px;
-    left: 120px;
+    left: 15%;
     bottom:15%;
 }
 
