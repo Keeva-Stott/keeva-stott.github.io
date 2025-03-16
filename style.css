@@ -64,7 +64,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    min-height: 120vh;
+    min-height: 100vh;
     background-color: #ebd5c0;
     background-size: cover;
     background-position: center;
@@ -75,7 +75,8 @@ body {
 
 .home-content {
     max-width: 600px;
- margin-left: 80px;
+    left: 20%;
+    bottom:30%;
 }
 
 .home-content h1 {
@@ -173,7 +174,7 @@ body {
 .img {
     display: inline-block;
     right: 10%;
-    bottom:10%;
+    bottom:25%;
     padding: 0 0 0 20px;
     background-repeat: no-repeat;
     background-position: center center;
