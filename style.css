@@ -442,14 +442,16 @@ body {
 /*contacts*/
 
 .contacts {
-    display: grid;
-    /*grid-template-columns: repeat (2, 1fr);*/
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
     align-items: center;
+    justify-content: center; /* Center vertically */
     gap: 3rem;
     padding: 40px;
     padding-top: 70px;
     justify-content: center;
     background-color: #000;
+    text-align: center;
 }
 
 .contact-text {
