@@ -70,12 +70,12 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 50px 10% 0 50px;
+    padding: 50px 5% 0 50px;
 }
 
 .home-content {
     max-width: 600px;
-    left: 25px;
+    left: 50px;
     bottom:30%;
 }
 
