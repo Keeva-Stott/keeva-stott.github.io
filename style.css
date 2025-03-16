@@ -449,7 +449,6 @@ body {
     justify-content: center; /* Center vertically */
     gap: 3rem;
     padding: 20px;
-    padding-top: 45px;
     justify-content: center;
     background-color: #000;
     text-align: center;
@@ -483,12 +482,13 @@ body {
     line-height: 30px;
     margin-bottom: 2rem;
 }*/
+
 .contact-list {
     margin-bottom: 5px ;
 }
 
 .contact-list li {
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     display: block;
     letter-spacing: 2px;
 }
@@ -501,7 +501,6 @@ body {
     transition: all .40s ease;
     padding: 10px;
 }
-
 
 .contact-icons i {
     display: inline-flex;
