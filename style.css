@@ -362,9 +362,11 @@ body {
 
 .serv-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, auto));
-    align-items: center;
-    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Ensure responsiveness */
+    grid-auto-rows: minmax(300px, auto); /* Allow dynamic row heights */
+    gap: 20px; /* Add spacing between grid items */
+    justify-content: center;
+    padding: 20px;
 }
 
 .row {
