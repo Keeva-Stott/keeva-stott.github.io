@@ -390,30 +390,27 @@ body {
 }
 
 .layer {
-    width: 540px;
+    display: flex;  /* Enable flexbox for centering the layer */
+    flex-direction: column;  /* Stack the content vertically */
+    justify-content: center;  /* Center content vertically */
+    align-items: center;  /* Center content horizontally */
+    width: 100%;  /* Ensure the layer takes full width */
+    max-width: 500px;  /* Limit layer size to match image */
     white-space: normal; /* Ensure wrapping within constraints */
     overflow-y: auto;
-    height: auto;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
     position: absolute;
     border-radius: 10px;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     transition: height 0.5s;
 }
 
 .layer h5 {
     color: #000;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 600;
     margin-bottom: 15px;
 }
 
@@ -426,8 +423,8 @@ body {
 
 
 .layer p {
-    color: #9cada4;
-    font-size: 16px;
+    color: #000;
+    font-size: 20px;
     font-weight: 300;
     line-height: 1;
     text-align: justify;
