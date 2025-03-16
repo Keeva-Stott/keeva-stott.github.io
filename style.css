@@ -345,7 +345,6 @@ body {
 }
 .main-text {
     padding-top: 25px;
-    margin-top: 5px;
 }
 
 .main-text h2 {
@@ -353,7 +352,6 @@ body {
     line-height: 1;
     text-align: center;
     padding: 50px;
-    padding-bottom: 25px;
 }
 
 .main-text h2 span {
@@ -367,7 +365,7 @@ body {
     row-gap: 30px; /* Add spacing between grid items */
     justify-content: center;
     column-gap: calc(30px * 2 / 3);
-    padding: 45px 30px;
+    padding: 55px 40px;
 }
 
 .row {
