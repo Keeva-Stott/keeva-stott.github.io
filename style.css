@@ -346,7 +346,6 @@ body {
 .main-text {
     padding-top: 25px;
     margin-top: 5px;
-    padding-bottom: 50px;
 }
 
 .main-text h2 {
@@ -354,7 +353,7 @@ body {
     line-height: 1;
     text-align: center;
     padding: 50px;
-    padding-bottom: 110px;
+    padding-bottom: 25px;
 }
 
 .main-text h2 span {
