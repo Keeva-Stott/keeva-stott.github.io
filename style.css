@@ -75,7 +75,7 @@ body {
 
 .home-content {
     max-width: 600px;
-    left: 20%;
+    left: 30%;
     bottom:30%;
 }
 
@@ -173,8 +173,8 @@ body {
 
 .img {
     display: inline-block;
-    left: 20%;
-    bottom: 10%;
+    right: 20%;
+    bottom: 20%;
     padding: 0 0 0 20px;
     background-repeat: no-repeat;
     background-position: center center;
