@@ -76,8 +76,8 @@ body {
 .home-content {
     position: absolute;  
     max-width: 600px;
-    left: 50px;
-    bottom:30%;
+    left: 120px;
+    bottom:15%;
 }
 
 .home-content h1 {
