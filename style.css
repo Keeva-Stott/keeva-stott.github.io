@@ -70,7 +70,7 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 50px 10% 0 0;
+    padding: 50px 10% 0 50px;
 }
 
 .home-content {
