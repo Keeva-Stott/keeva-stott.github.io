@@ -375,7 +375,9 @@ body {
 }
 
 .layer {
-    width: 390px;
+    width: 340px;
+    white-space: normal; /* Ensure wrapping within constraints */
+    overflow-y: auto;
     height: auto;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
