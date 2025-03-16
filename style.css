@@ -156,7 +156,7 @@ body {
     padding: 12px 28px;
     background: #9cada4;
     border-radius: 40px;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     color: #081b29;
     letter-spacing: 1px;
@@ -165,7 +165,7 @@ body {
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
-}
+}  
 
 .btn-box:hover {
     box-shadow: 0 0 5px #ebd5c0, 0 0 25px #ebd5c0, 0 0 50pc #ebd5c0, 0 0 100px #ebd5c0, 0 0 200px #ebd5c0;
