@@ -18,7 +18,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 25% 10%;
     background: #767c77;
     display: flex;
     justify-content: space-evenly;
@@ -46,7 +46,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 15%;
     transition: .3s;
     opacity: 0;
     animation: slideUP .5s ease forwards;
@@ -70,7 +70,7 @@ body {
     background-position: center;
     display: flex;
     align-items: center;
-    padding: 50px 5% 0 50px;
+    padding: 20% 5% 0 20%;
 }
 
 .home-content {
@@ -85,8 +85,8 @@ body {
     font-weight: 700;
     margin: -3px 0;
     letter-spacing: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: 1s;
@@ -105,7 +105,7 @@ body {
     opacity: 0;
     animation: slideBottom 1s ease forwards;
     animation-delay: .7s;
-    margin-bottom: 30px;
+    margin-bottom: 20%;
 
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .home-content h5:nth-of-type(2) {
-    margin-bottom: 30px;
+    margin-bottom: 30%;
 
 }
 
@@ -132,15 +132,15 @@ body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 35%;
+    height: 35%;
     background: transparent;
     border: 3px solid #9cada4;
     border-radius: 50%;
     font-size: 25px;
     color: #9cada4;
     text-decoration: none;
-    margin: 30px 15px 30px 0;
+    margin: 20% 12% 20% 0;
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: calc(.2s * var(--i));
@@ -154,7 +154,7 @@ body {
 
 .btn-box {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 10% 20%;
     background: #9cada4;
     border-radius: 40px;
     font-size: 16px;
@@ -176,13 +176,13 @@ body {
     display: inline-block;
     right: 20%;
     bottom: 15%;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 15%;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: absolute;
-    margin-top: 50px;
-    margin-left: 20px;
+    margin-top: 25%;
+    margin-left: 10%;
     opacity: 0;
     animation: slideUP 1s ease forwards;
     animation-delay: 1s;
@@ -226,7 +226,7 @@ body {
     width: 100%;
     justify-content: space-between;
     min-height: 100vh;
-    padding: 25px 5% 25px 0;
+    padding: 10% 5% 10% 0;
 }
 
 .about-img {
@@ -249,9 +249,9 @@ body {
     height: auto;
     max-width: 400px;
     max-height: 600px;
-    border-radius: 25px;
+    border-radius: 7%;
     /*box-shadow: 0 0 5pc #ebd5c0, 0 0 5px #ebd5c0, 0 0 10px #ebd5c0;*/
-    border: #767c77 5px solid;
+    border: #767c77 2% solid;
 }
 
 .about-text {
@@ -294,13 +294,13 @@ body {
 
 .right-content {
     grid-column: 2; /* Make sure it is placed in the second column */
-    margin-left: -100px; /* Moves it further left */
+    margin-left: -30%; /* Moves it further left */
 }
 
 @media (max-width: 768px) {
     .about {
         grid-template-columns: 1fr; /* Switch to one column */
-        padding: 50px 5%;
+        padding: 10% 5%;
     }
 
     .about-img {
@@ -323,7 +323,7 @@ body {
 
 .abtbtn-box {
     display: inline-block;
-    padding: 12px 28px;
+    padding: 7% 15%;
     background: #767c77;
     border-radius: 40px;
     font-size: 15px;
@@ -344,7 +344,7 @@ body {
     background-color: #ebd5c0;
 }
 .main-text {
-    margin-top: 25px;
+    margin-top: 10%;
 }
 
 .main-text h2 {
@@ -364,7 +364,7 @@ body {
     row-gap: 30px; /* Add spacing between grid items */
     justify-content: center;
     column-gap: calc(30px * 2 / 3);
-    padding: 55px 60px;
+    padding: 20% 30%;
     left: 10%;
     right: 10%;
 }
@@ -387,7 +387,7 @@ body {
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
-    padding: 10px;
+    padding: 8%;
 }
 
 .layer {
@@ -404,7 +404,7 @@ body {
     position: absolute;
     border-radius: 10px;
     text-align: center;
-    padding: 10px;
+    padding: 5%;
     transition: height 0.5s;
 }
 
@@ -412,14 +412,14 @@ body {
     color: #000;
     font-size: 26px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 8%;
 }
 
 .layer h6 {
     color: #000;
     font-size: 20px;
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 8%;
 }
 
 
@@ -435,7 +435,7 @@ body {
 
 .layer i {
     color: #9cada4;
-    margin-top: 10px;
+    margin-top: 5%;
     font-size: 12px;
     background: #000;
     width: 30px;
@@ -480,7 +480,7 @@ body {
     align-items: center;
     justify-content: center; /* Center vertically */
     gap: 3rem;
-    padding: 20px;
+    padding: 12%;
     justify-content: center;
     background-color: #000;
     text-align: center;
@@ -502,7 +502,7 @@ body {
 }
 
 .contact-text h4 {
-    margin-top: 15px;
+    margin-top: 10%;
     color: rgb(228, 228, 228);
     font-size: 20px;
     font-weight: 600;
@@ -516,11 +516,11 @@ body {
 }*/
 
 .contact-list {
-    margin-bottom: 5px ;
+    margin-bottom: 2% ;
 }
 
 .contact-list li {
-    margin-bottom: 4px;
+    margin-bottom: 4%;
     display: block;
     letter-spacing: 2px;
 }
@@ -531,7 +531,7 @@ body {
     font-size: 20px;
     font-weight: 600;
     transition: all .40s ease;
-    padding: 10px;
+    padding: 5%;
 }
 
 .contact-icons i {
@@ -541,12 +541,12 @@ body {
     width: 40px;
     height: 40px;
     background: transparent;
-    border: 2px solid #9cada4;
+    border: 5% solid #9cada4;
     border-radius: 50%;
     font-size: 20px;
     color: #9cada4;
     text-decoration: none;
-    margin: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 2%;
     opacity: 1;
 }
 
@@ -559,7 +559,7 @@ body {
 .last-text p{
     width: 100%;
     text-align: center;
-    padding: 25px;
+    padding: 10%;
     background: #000;
     font-weight: 300;
     margin-top: 0px;
@@ -574,7 +574,7 @@ body {
 }
 
 .top.active{
-    bottom: 32px;
+    bottom: 20%;
     pointer-events: auto;
     opacity: 1;
 }
@@ -583,13 +583,13 @@ body {
     color: #767c77;
     background: #9cada4;
     font-size: 20px;
-    padding: 10px;
+    padding: 8%;
     border-radius: 0.5rem;
 }
 
 .top i:hover {
     box-shadow: 0 0 5px #ebd5c0,
-    0 0 25px #ebd5c0, 0 0 50px #ebd5c0,0 0 200px #ebd5c0;
+    0 0 15% #ebd5c0, 0 0 25% #ebd5c0,0 0 60% #ebd5c0;
 }
 
 
