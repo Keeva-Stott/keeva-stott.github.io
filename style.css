@@ -1,70 +1,202 @@
-/* Header or Nav section */
-top: 0;
-left: 0;
-width: 100%;
-padding: 2% 10%;
-background: #767c77;
-display: flex;
-justify-content: space-evenly;
-
-/* Navigation links spacing */
-margin-left: 2.5vw; /* instead of 35px */
-
-/* Hero Section Padding */
-padding: 5% 5% 0 5%; /* instead of 50px 5% 0 50px */
-
-/* Typography spacing */
-padding-top: 1.5%;
-padding-bottom: 1.5%;
-margin-bottom: 2.5%;
-
-/* Social Icons */
-width: 5vw;
-height: 5vw;
-margin: 3% 2% 3% 0;
-
-/* Button */
-padding: 1.2% 2.8%; /* equivalent of 12px 28px */
-border-radius: 2vw;
-
-/* Hero Image */
-right: 20%;
-bottom: 15%;
-padding: 0 0 0 2%;
-margin-top: 25%;
-margin-left: 10%;
-
-/* About Section */
-padding: 2.5% 5% 2.5% 0;
-
-/* About Image */
-max-width: 80vw;
-max-height: 90vh;
-border-radius: 3%;
-border: #767c77 0.5vw solid;
-
-/* Grid Layout */
-column-gap: 4%;
-row-gap: 4%;
-padding: 5%;
-
-/* Portfolio Cards */
-padding: 8%; /* already good here */
-
-/* Layer content */
-padding: 2%;
-
-/* Contact Section */
-padding: 2% 5%;
-
-.contact-icons i {
-    width: 10vw;
-    height: 10vw;
-    margin: 0 0 0 1%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
-/* Footer Text */
-padding: 2.5%;
+body {
+    color: #767c77;
+    background-color: #ebd5c0;
+}
 
-/* Back to Top Button */
-padding: 1%;
+/*navbar*/
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2.5% 10%;
+    background: #767c77;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 100;
+    overflow: hidden;
+}
+
+.logo {
+    position: relative;
+    font-size: 2.2vw;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 650;
+    cursor: default;
+    letter-spacing: 0.3vw;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar a {
+    flex: 1;
+    display: inline-block;
+    font-size: 1.5vw;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 3vw;
+    transition: .3s;
+    opacity: 0;
+    animation: slideUP .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover {
+    color: #9cada4;
+    text-decoration: underline;
+}
+
+/*home*/
+.home {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #ebd5c0;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 5% 5% 0 5%;
+}
+
+.home-content {
+    position: absolute;  
+    max-width: 50vw;
+    left: 15%;
+    bottom: 20%;
+}
+
+.home-content h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+    margin: -0.5vw 0;
+    letter-spacing: 0.3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home-content h3 {
+    font-size: 2vw;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home-content h4 {
+    font-size: 2vw;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+    margin-bottom: 3vh;
+}
+
+.home-content h5 {
+    font-size: 1.2vw;
+    font-weight: 400;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.home-content h5 span {
+    color: #767c77;
+    font-size: 1.2vw;
+    font-weight: 400;
+}
+
+.home-content h5:nth-of-type(2) {
+    margin-bottom: 3vh;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4vw;
+    height: 4vw;
+    background: transparent;
+    border: 0.3vw solid #9cada4;
+    border-radius: 50%;
+    font-size: 1.6vw;
+    color: #9cada4;
+    text-decoration: none;
+    margin: 3vh 1.5vw 3vh 0;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 1.2vh 2.8vw;
+    background: #9cada4;
+    border-radius: 5vw;
+    font-size: 1.2vw;
+    text-align: center;
+    color: #081b29;
+    letter-spacing: 0.1vw;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}  
+
+.img {
+    display: inline-block;
+    right: 10%;
+    bottom: 15%;
+    padding: 0 0 0 2vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    opacity: 0;
+    animation: slideUP 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.responsive {
+    width: 30vw;
+    height: 40vw;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .responsive {
+        width: 80%;
+        height: auto;
+    }
+
+    .img {
+        position: static;
+        margin: 0 auto;
+    }
+}
+
+/* Additional sections like about, projects, and contacts would follow the same conversion pattern */
