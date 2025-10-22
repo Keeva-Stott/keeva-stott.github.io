@@ -292,7 +292,7 @@ flex: 5;
      transition: height 0.5s;
       opacity: 0;
      color: #767c77;
-     max-width: 300px;
+     width: 400px;
 }
  
  .cells .cell img {
@@ -378,10 +378,6 @@ flex: 5;
      height: 100%;
      opacity: 1;
  }
- 
-.cell img {
-     width: 100px;
-}
 
 
 /* SECTION 4: CONTACTS */
@@ -959,6 +955,7 @@ flex: 5;
          color: #000;
      }
  }
+
 
 
 
