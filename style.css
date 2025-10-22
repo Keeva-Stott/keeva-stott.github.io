@@ -291,7 +291,7 @@ flex: 5;
       text-align: center;
      transition: height 0.5s;
       opacity: 0;
-      background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
+     color: #767c77;
 }
  
  .cells .cell img {
@@ -321,21 +321,30 @@ flex: 5;
  /* } */
  
  .cell h5 {
+      position: absolute;
+      test-align: center;
      color: #000;
      font-size: 26px;
      font-weight: 600;
      margin-bottom: 15px;
+  opacity: 0;
+
  }
  
  .cell h6 {
+         position: absolute;
+      test-align: center;
      color: #000;
      font-size: 20px;
      font-weight: 300;
      margin-bottom: 15px;
+      opacity: 0;
+
  }
  
  
  .cell p {
+         position: absolute;
      color: #000;
      font-size: 20px;
      font-weight: 300;
@@ -343,9 +352,11 @@ flex: 5;
      text-align: center;
      margin-left: 2%;
      margin-right: 2%;
+    opacity: 0;
  }
  
  .cell i {
+         position: absolute;
      color: #9cada4;
      margin-top: 10px;
      font-size: 12px;
@@ -356,6 +367,8 @@ flex: 5;
      align-items: center;
      justify-content: center;
      border-radius: 50%;
+   opacity: 0;
+
  }
  
  .cell:hover img {
@@ -947,6 +960,7 @@ img {
          color: #000;
      }
  }
+
 
 
 
