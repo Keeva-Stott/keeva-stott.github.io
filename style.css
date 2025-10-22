@@ -295,8 +295,6 @@ flex: 5;
 }
  
  .cells .cell img {
-     width: 668px;
-     height: 501px;
      border-radius: 15px;
      object-fit: contain;
      transition: transform 0.5s;
@@ -960,6 +958,7 @@ img {
          color: #000;
      }
  }
+
 
 
 
