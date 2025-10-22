@@ -310,7 +310,7 @@ flex: 5;
 /*     text-align: center;
 /*     padding: 10px;
  /*    transition: height 0.5s;
- /* }
+ /* } */
  
  .cell h5 {
      color: #000;
@@ -939,5 +939,6 @@ img {
          color: #000;
      }
  }
+
 
 
