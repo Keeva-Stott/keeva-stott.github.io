@@ -289,7 +289,8 @@ test-align: center;
   position: relative; /* allows absolute positioning of the text */
   overflow: hidden; /* hides image overflow if scaled */
   border-radius: 8px;
-
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .grid-container img {
@@ -305,6 +306,12 @@ test-align: center;
   .item4 {grid-area: 2 / 1;}
   .item5 {grid-area: 2 / 2;}
   .item6 {grid-area: 2 / 3;}
+
+
+
+.grid-container > div:hover h3 {
+  opacity: 1;
+}
 
 @media only screen and (max-width: 450px) {
        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -998,6 +1005,7 @@ test-align: center;
 
 
 */
+
 
 
 
