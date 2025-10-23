@@ -244,32 +244,22 @@ flex: 5;
  /*projects*/
  .projects{
      background-color: #ebd5c0;
-        padding: 0 50px;
+        padding: 0 0px;
   margin-bottom: 100px;
 }
  .projects h2 {
-     font-size: 60px;
+     font-size: 40px;
      line-height: 1;
      text-align: center;
       margin-bottom: 2rem;
  }
  
-/* .cells {
-        display: grid;
-  justify-content: stretch;
-  flex-wrap: wrap;
-      align-items: center;
-      max-width: 1224px;
-      width: 90%;
-      */
-   /*   <--------> */
-
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  gap: 10px;
-  background-color: dodgerblue;
+  gap: 15px;
+  opacity:0;
   width: 100%;
   padding-top: 75%; 
 
@@ -281,6 +271,7 @@ flex: 5;
   padding-top: 75%; 
   font-size: 30px;
   text-align: center;
+  width: 100%;
 }
 
   .item1 {grid-area: 1 / 1;}
@@ -981,6 +972,7 @@ flex: 5;
 
 
 */
+
 
 
 
