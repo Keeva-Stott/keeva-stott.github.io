@@ -259,7 +259,6 @@ flex: 5;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 15px;
-  opacity:0;
   width: 100%;
   padding-top: 75%; 
 
@@ -973,6 +972,7 @@ flex: 5;
 
 
 */
+
 
 
 
