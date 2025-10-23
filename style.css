@@ -281,16 +281,36 @@ test-align: center;
      
 }
 
-.grid-container > div {
-  color:#000;
-  padding: 10px; 
-  text-align: center;
+.grid-container .item {
+  position: relative; /* allows overlay to position correctly */
   aspect-ratio: 4 / 3;
-  position: relative; /* allows absolute positioning of the text */
-  overflow: hidden; /* hides image overflow if scaled */
+  overflow: hidden;
   border-radius: 8px;
-  opacity: 0;
-  transition: opacity 0.3s ease;
+}
+
+.grid-container .overlay {
+  position: absolute;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; shorthand */
+  background: rgba(0, 0, 0, 0.6); /* shadow/dim effect */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  opacity: 0; /* hidden initially */
+  transition: opacity 0.4s ease; /* smooth fade */
+}
+
+/* Hover effect */
+.grid-container .item:hover .overlay {
+  opacity: 1; /* reveal the overlay */
+}
+
+.grid-container .overlay h3 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .grid-container img {
@@ -307,11 +327,6 @@ test-align: center;
   .item5 {grid-area: 2 / 2;}
   .item6 {grid-area: 2 / 3;}
 
-
-
-.grid-container > div:hover h3 {
-  opacity: 1;
-}
 
 @media only screen and (max-width: 450px) {
        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1005,6 +1020,7 @@ test-align: center;
 
 
 */
+
 
 
 
