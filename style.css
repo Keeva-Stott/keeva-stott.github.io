@@ -302,18 +302,6 @@ test-align: center;
   transition: opacity 0.4s ease; /* smooth fade */
 }
 
-/* Hover effect */
-.grid-container .item:hover .overlay {
-  opacity: 1; /* reveal the overlay */
-}
-
-.grid-container .overlay h3 {
-  margin: 0;
-  padding: 1rem;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
 .grid-container img {
   width: 100%;
   height: 100%;
@@ -329,6 +317,19 @@ test-align: center;
   .item6 {grid-area: 2 / 3;}
 
 
+
+/* Hover effect */
+.overlay:hover  {
+  opacity: 1; /* reveal the overlay */
+}
+
+.overlay:hover h3 {
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 450px) {
        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   .item1 {grid-area: 1 / 1;}
@@ -340,111 +341,7 @@ test-align: center;
 }
       
          /*   <--------> */
-/*
-.cells .cell {       
-     display: flex;
-     flex-direction: row;
-      flex-growth: 1;
-       justify-content: center;
-       align-items: center;
-       gap: 20px;
-       border-radius: 10px;
-       cursor: pointer;
-       padding: 20px 20px;
-      text-align: center;
-     transition: height 0.5s;
-      opacity: 0;
-     color: #767c77;
-     max-width: 408px;
-     width: 90%;
-}
- 
- .cells .cell img {
-     border-radius: 15px;
-     object-fit: contain;
-     transition: transform 0.5s;
-      width: 100%;
-      height: 100%;
- }*/
- 
-/* .layer {
-/*     display: flex;  /* Enable flexbox for centering the layer */
-/*     flex-direction: column;  /* Stack the content vertically */
-/*     justify-content: center;  /* Center content vertically */
-/*     align-items: center;  /* Center content horizontally */
-/*     width: 100%;  /* Ensure the layer takes full width */
-/*     max-width: 500px;  /* Limit layer size to match image */
- /*    white-space: normal; /* Ensure wrapping within constraints */
- /*    overflow-y: auto;
- /*    opacity: 0;
-/*     background: linear-gradient(rgba(255, 255, 255, 0.5), #9cada4);
-/*     position: absolute;
-/*     border-radius: 10px;
-/*     text-align: center;
-/*     padding: 10px;
- /*    transition: height 0.5s;
- /* } */
- /*
-.cells .cell h5 {
-      position: absolute;
-      test-align: center;
-     color: #000;
-     font-size: 26px;
-     font-weight: 600;
-     margin-bottom: 15px;
-  opacity: 0;
 
- }
- 
-.cells .cell h6 {
-         position: absolute;
-      test-align: center;
-     color: #000;
-     font-size: 20px;
-     font-weight: 300;
-     margin-bottom: 15px;
-      opacity: 0;
-
- }
- 
- 
-.cells .cell p {
-         position: absolute;
-     color: #000;
-     font-size: 20px;
-     font-weight: 300;
-     line-height: 1;
-     text-align: center;
-     margin-left: 2%;
-     margin-right: 2%;
-    opacity: 0;
- }
- 
-.cells .cell i {
-         position: absolute;
-     color: #9cada4;
-     margin-top: 10px;
-     font-size: 12px;
-     background: #000;
-     width: 30px;
-     height: 30px;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     border-radius: 50%;
-   opacity: 0;
-
- }
- 
-.cells .cell:hover img {
-     transform: scale(1.01);
- }
- 
-.cells .cell:hover {
-     height: 100%;
-     opacity: 1;
- }
-*/
 
 
 /* SECTION 4: CONTACTS */
@@ -1021,6 +918,7 @@ test-align: center;
 
 
 */
+
 
 
 
