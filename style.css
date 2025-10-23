@@ -254,56 +254,51 @@ flex: 5;
       margin-bottom: 2rem;
  }
  
- .cells {
+/* .cells {
         display: grid;
   justify-content: stretch;
   flex-wrap: wrap;
       align-items: center;
       max-width: 1224px;
       width: 90%;
-      
+      */
    /*   <--------> */
 
-      .grid_items {
-  padding: 3.75%;
+
+.grid-container {
   display: grid;
-  grid-template-columns: 100%;
-  grid-column-gap: 0;
-  grid-row-gap: 20px;
-}
-.grid_items > div {
-  background-color: RoyalBlue;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: dodgerblue;
   padding: 10px;
 }
-.grid_items > div:nth-child(3n + 2) {
-  background-color: DodgerBlue;
-}
-.grid_items > div:nth-child(3n) {
-  background-color: DeepSkyBlue;
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  color:#000;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
 }
 
-      @media only screen and (min-width: 640px) {
-  .grid_items {
-    grid-template-columns: 47.5% 47.5%;
-    grid-column-gap: 5%;
-    grid-row-gap: 40px;
-  }
-  .grid_items > div {
-    padding: 20px;
-  }
-}
+  .item1 {grid-area: 1 / 1;}
+  .item2 {grid-area: 1 / 2;}
+  .item3 {grid-area: 1 / 3;}
+  .item4 {grid-area: 2 / 1;}
+  .item5 {grid-area: 2 / 2;}
+  .item6 {grid-area: 2 / 3;}
 
-      @media only screen and (min-width: 981px) {
-  .grid_items {
-    grid-template-columns: 30% 30% 30%;
-    grid-row-gap: 50px;
-  }
-  .grid_items > div {
-    padding: 30px;
-  }
+@media only screen and (max-width: 450px) {
+  .item1 {grid-area: 1 / 1;}
+  .item2 {grid-area: 2 / 1;}
+  .item3 {grid-area: 3 / 1;}
+  .item4 {grid-area: 4 / 1;}
+  .item5 {grid-area: 5 / 1;}
+  .item6 {grid-area: 6 / 1;}
 }
+      
          /*   <--------> */
-
+/*
 .cells .cell {       
      display: flex;
      flex-direction: row;
@@ -328,7 +323,7 @@ flex: 5;
      transition: transform 0.5s;
       width: 100%;
       height: 100%;
- }
+ }*/
  
 /* .layer {
 /*     display: flex;  /* Enable flexbox for centering the layer */
@@ -347,7 +342,7 @@ flex: 5;
 /*     padding: 10px;
  /*    transition: height 0.5s;
  /* } */
- 
+ /*
 .cells .cell h5 {
       position: absolute;
       test-align: center;
@@ -407,6 +402,7 @@ flex: 5;
      height: 100%;
      opacity: 1;
  }
+*/
 
 
 /* SECTION 4: CONTACTS */
@@ -983,6 +979,7 @@ flex: 5;
 
 
 */
+
 
 
 
