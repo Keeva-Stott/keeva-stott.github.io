@@ -4,7 +4,7 @@
      box-sizing: border-box;
      font-family: 'poppins', sans-serif;
      scroll-behavior: smooth;
-     max-width: 1400px;
+     max-width: 2000px;
  }
  
  body {
@@ -259,9 +259,8 @@ flex: 5;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 15px;
-  width: 100%;
-  padding-top: 75%; 
-  background-color: #000000;
+ padding: 10px;
+ background-color: #000000;
 
 }
 
@@ -269,7 +268,7 @@ flex: 5;
   background-color: #f1f1f1;
   color:#000;
   width: 100%;
-  padding-top: 75%; 
+  padding: 10px; 
   font-size: 15px;
   text-align: center;
 
@@ -973,6 +972,7 @@ flex: 5;
 
 
 */
+
 
 
 
