@@ -252,7 +252,8 @@ flex: 5;
      text-align: center;
       margin-bottom: 2rem;
  }
- .grid-container h3 {
+
+ .overlay .item h3 {
   position: absolute;
 test-align: center;
         font-size: 30px;
@@ -261,7 +262,7 @@ test-align: center;
   transform: translate(-50%, -50%);
       padding-bottom: 5px;
 }
- .grid-container h4 {
+ .overlay h4 {
   position: absolute;
 test-align: center;
         font-size: 20px;
@@ -281,7 +282,7 @@ test-align: center;
      
 }
 
-.grid-container .item {
+.grid-container >div {
   position: relative; /* allows overlay to position correctly */
   aspect-ratio: 4 / 3;
   overflow: hidden;
@@ -1020,6 +1021,7 @@ test-align: center;
 
 
 */
+
 
 
 
