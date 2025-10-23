@@ -274,7 +274,7 @@ test-align: center;
 .grid-container > div {
   color:#000;
   padding: 10px; 
-  font-size: 15px;
+  font-size: 25px;
   text-align: center;
   aspect-ratio: 4 / 3;
   position: relative; /* allows absolute positioning of the text */
@@ -989,6 +989,7 @@ test-align: center;
 
 
 */
+
 
 
 
