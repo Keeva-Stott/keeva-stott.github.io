@@ -289,10 +289,10 @@ test-align: center;
   border-radius: 8px;
 }
 
-.grid-container .overlay {
+ .overlay {
   position: absolute;
   inset: 0; /* top:0; right:0; bottom:0; left:0; shorthand */
-  background: rgba(0, 0, 0, 0.6); /* shadow/dim effect */
+  background: #000000; /* shadow/dim effect */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -918,6 +918,7 @@ test-align: center;
 
 
 */
+
 
 
 
