@@ -19,7 +19,7 @@
      top: 0;
      left: 0;
      width: 100%;
-     padding: 20px 10%;
+     padding-top: 20px;
      background: #767c77;
      display: flex;
      justify-content: space-between;
@@ -981,6 +981,7 @@ flex: 5;
 
 
 */
+
 
 
 
