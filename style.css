@@ -18,7 +18,7 @@
      position: fixed;
      top: 0;
      width: 100%;
-     padding: 0 20px;
+     padding: 0;
      background: #767c77;
      display: flex;
      justify-content: space-between;
@@ -975,6 +975,7 @@ flex: 5;
 
 
 */
+
 
 
 
