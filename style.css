@@ -262,7 +262,7 @@ flex: 5;
   gap: 10px;
  padding: 10px;
  background-color: #000000;
-
+ word-wrap: normal;
 }
 
 .grid-container > div {
@@ -972,6 +972,7 @@ flex: 5;
 
 
 */
+
 
 
 
