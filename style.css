@@ -278,6 +278,8 @@ test-align: center;
   background-color: #767c77;
   word-wrap: normal;
   object-fit: contain;
+  height: auto;
+
      
 }
 
@@ -917,6 +919,7 @@ test-align: center;
 
 
 */
+
 
 
 
