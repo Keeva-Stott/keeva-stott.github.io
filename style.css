@@ -277,10 +277,7 @@ test-align: center;
   padding: 10px;
   background-color: #767c77;
   word-wrap: normal;
-  object-fit: contain;
-  height: auto;
-
-     
+  object-fit: contain;     
 }
 
 .grid-container >div {
@@ -919,6 +916,7 @@ test-align: center;
 
 
 */
+
 
 
 
