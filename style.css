@@ -25,6 +25,7 @@
      background: #767c77;
      z-index: 100;
      overflow: hidden;
+
  }
  
  .logo {
@@ -42,10 +43,10 @@
  .navbar .left a {
      flex: 1;
      font-size: 24px;
-     color: #fff;
+     color: #000000;
      text-decoration: none;
      font-weight: 500;
-     margin-left: 35px;
+     margin: 0 35px;
      transition: .3s;
      opacity: 1;
      animation: slideUP .5s ease forwards;
@@ -54,6 +55,8 @@
 
  .navbar .right a{
   margin: 0 10px;
+           color: #000000;
+
  }
 
  .navbar .right a:hover {
@@ -921,6 +924,7 @@ test-align: center;
 
 
 */
+
 
 
 
