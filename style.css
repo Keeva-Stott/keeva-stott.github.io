@@ -21,7 +21,7 @@
      position: fixed;
      top: 0;
      width: 100%;
-     padding: 0;
+     padding: 20;
      background: #767c77;
      z-index: 100;
      overflow: hidden;
@@ -924,6 +924,7 @@ test-align: center;
 
 
 */
+
 
 
 
