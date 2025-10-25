@@ -15,14 +15,14 @@
  /*navbar*/
  
  .header {
+        display: flex;
+  justify-content: space-between;
+  align-items: center;
      position: fixed;
      top: 0;
      width: 100%;
      padding: 0;
      background: #767c77;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
      z-index: 100;
      overflow: hidden;
  }
@@ -39,9 +39,8 @@
      animation: slideRight 1s ease forwards;
  }
  
- .navbar a {
+ .navbar .left a {
      flex: 1;
-     display: inline-block;
      font-size: 24px;
      color: #fff;
      text-decoration: none;
@@ -52,8 +51,12 @@
      animation: slideUP .5s ease forwards;
      animation-delay: calc(.2s * var(--i));
  }
- 
- .navbar a:hover {
+
+ .navbar .right a{
+  margin: 0 10px;
+ }
+
+ .navbar .right a:hover {
      color: #9cada4;
      text-decoration: underline;
  }
@@ -918,6 +921,7 @@ test-align: center;
 
 
 */
+
 
 
 
