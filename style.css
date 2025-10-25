@@ -278,6 +278,8 @@ test-align: center;
   background-color: #767c77;
   word-wrap: normal;
   object-fit: contain;     
+       grid-auto-rows: 1fr; /* ✅ each row same height */
+
 }
 
 .grid-container >div {
@@ -916,6 +918,7 @@ test-align: center;
 
 
 */
+
 
 
 
