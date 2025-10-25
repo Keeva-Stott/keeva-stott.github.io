@@ -14,23 +14,24 @@
  
  /*navbar*/
  
- .navbar {
-        display: flex;
-  justify-content: space-between;
-  align-items: center;
+ .header {
      position: fixed;
      top: 0;
-     padding: 20;
+     width: 100%;
+     padding: 0;
      background: #767c77;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
      z-index: 100;
      overflow: hidden;
-
  }
  
  .logo {
      position: relative;
      font-size: 34px;
      color: #000000;
+     text-decoration: none;
      font-weight: 650;
      cursor: default;
      letter-spacing: 5px;
@@ -38,25 +39,21 @@
      animation: slideRight 1s ease forwards;
  }
  
- .navbar .left a {
+ .navbar a {
      flex: 1;
+     display: inline-block;
      font-size: 24px;
-     color: #000000;
+     color: #fff;
+     text-decoration: none;
      font-weight: 500;
-     margin: 0 35px;
+     margin-left: 35px;
      transition: .3s;
      opacity: 1;
      animation: slideUP .5s ease forwards;
      animation-delay: calc(.2s * var(--i));
  }
-
- .navbar .right a{
-  margin: 0 10px;
-           color: #000000;
-
- }
-
- .navbar .right a:hover {
+ 
+ .navbar a:hover {
      color: #9cada4;
      text-decoration: underline;
  }
@@ -281,8 +278,6 @@ test-align: center;
   background-color: #767c77;
   word-wrap: normal;
   object-fit: contain;     
-       grid-auto-rows: 1fr; /* ✅ each row same height */
-
 }
 
 .grid-container >div {
@@ -921,13 +916,6 @@ test-align: center;
 
 
 */
-
-
-
-
-
-
-
 
 
 
