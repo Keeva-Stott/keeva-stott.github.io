@@ -57,7 +57,7 @@
      color: #000000;
      text-decoration: none;
      font-weight: 800;
-      margin: 20px 35px;
+      margin: 10px 5px 10px 35px;
  }
 
  .navbar .right {
@@ -65,7 +65,7 @@
      color: #fff;
      text-decoration: none;
      font-weight: 500;
-      margin: 20px 35px;
+      margin: 10px 5px;
  }
 
       
@@ -932,6 +932,7 @@ test-align: center;
 
 
 */
+
 
 
 
